@@ -13,6 +13,7 @@ This project demonstrates the use of **Spring Boot**, **Spring MVC**, **Spring D
 * 🗑 **Delete** an employee.
 * 💾 Data stored in a **MySQL database**.
 * 🎨 User-friendly UI using **Bootstrap**.
+* 📜 **Centralized Logging with AOP** — Log method calls, arguments, and results across controllers, services, and DAOs.
 
 ---
 
@@ -31,6 +32,7 @@ This project demonstrates the use of **Spring Boot**, **Spring MVC**, **Spring D
 ```
 src/main/java
     └── com/demo/springboot/employee_management
+        ├── aspect            # AOP logging aspects
         ├── controller        # Handles HTTP requests
         ├── dao               # Repository interface
         ├── entity            # JPA entity classes
